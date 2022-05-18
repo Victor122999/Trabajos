@@ -17,6 +17,7 @@ public class CalculadoraController {
 		return "/calculadora/index";
 	}
 	
+	
 	@PostMapping("/resultado")
 	public String resultado(@ModelAttribute Calculadora calcu, Model modelo)
 	{
