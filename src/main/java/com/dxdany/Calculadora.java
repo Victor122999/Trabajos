@@ -1,5 +1,8 @@
 package com.dxdany;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class Calculadora {
 	private int num1;
 	private int num2;
